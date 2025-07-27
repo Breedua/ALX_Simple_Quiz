@@ -12,7 +12,7 @@ function checkAnswer() {
         // Compare the user's answer with the correct answer
         if (userAnswer === correctAnswer) {
             feedback.textContent = "Correct! Well done.";
-            feedbackElement.style.color = "green"; // Correct answer feedback
+            feedback.style.color = "green"; // Correct answer feedback
         } else {
             feedback.textContent = "That's incorrect. Try again!";
             feedback.style.color = "blue"; // Incorrect answer feedback
